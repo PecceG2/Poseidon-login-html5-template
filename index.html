@@ -6,55 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Modern Login Page | AsmrProg</title>
+    <title>Login | Poseidon UI</title>
 </head>
 
 <body>
-
-    <div class="container" id="container">
+    <div id="poweredby-logo" style="filter: opacity(0.9);top: 90%;background-position-y: -88px;background-size: cover;height: 40px;width: 160px;position: absolute;background-image: url('rappilogo.png')">
+    </div>
+    <div class="container active" id="container">
         <div class="form-container sign-up">
-            <form>
-                <h1>Create Account</h1>
-                <div class="social-icons">
-                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
-                </div>
-                <span>or use your email for registeration</span>
-                <input type="text" placeholder="Name">
-                <input type="email" placeholder="Email">
-                <input type="password" placeholder="Password">
-                <button>Sign Up</button>
-            </form>
+            <div style="background-color: #191b1f;width: 100%;height:100%;"></div>
         </div>
         <div class="form-container sign-in">
             <form>
                 <h1>Sign In</h1>
-                <div class="social-icons">
-                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                <div class="social-icons" style="width:100%">
+                    <a href="#" class="login-with-google-btn" style="width:100%;border-radius: 8px;">Sign In with Google SSO</a>
                 </div>
-                <span>or use your email password</span>
-                <input type="email" placeholder="Email">
+                <span>or use your user and password</span>
+                <input type="username" placeholder="Username">
                 <input type="password" placeholder="Password">
-                <a href="#">Forget Your Password?</a>
                 <button>Sign In</button>
             </form>
         </div>
         <div class="toggle-container">
             <div class="toggle">
-                <div class="toggle-panel toggle-left">
-                    <h1>Welcome Back!</h1>
-                    <p>Enter your personal details to use all of site features</p>
-                    <button class="hidden" id="login">Sign In</button>
+                <div class="toggle-panel toggle-left" style=" background-color: #191b1f; ">
+                    <h1></h1>
+                    <p></p>
                 </div>
-                <div class="toggle-panel toggle-right">
-                    <h1>Hello, Friend!</h1>
-                    <p>Register with your personal details to use all of site features</p>
-                    <button class="hidden" id="register">Sign Up</button>
+                <div class="toggle-panel toggle-right" style=" background-color: #191b1f; ">
+                    <img src="btposeidonlogo.jpg" style="width:300px">
+                    <h1 style=" margin-top: -15px; color:#fff">Poseidon</h1>
+                    <p style="margin-top: 0px;color:#fff">Rappi Blueteam</p>
                 </div>
             </div>
         </div>
